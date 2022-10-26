@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: normal arial;
+}
+
+body {
+    background: #52b7ff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+header h1 {
+    color: #fff;
+    padding-top: 30px;
+    text-shadow: #000 0.1em 0.1em 0.2em;
+}
+
+section {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.256);
+}
+
+section .hours {
+    font-size: 20px;
+}
+
+
+section .images .manha {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+footer a {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    text-decoration: none;
+    transition: all ease 0.5s;
+}
+
+footer a:hover {
+    font-size: 20px;
+    text-decoration: underline;
+}
